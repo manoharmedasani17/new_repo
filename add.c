@@ -2,8 +2,13 @@
 
 void main()
 {
-	int a =5;
-	int b =8;
+	int a,b;
+
+	printf("enter the a value:\n");
+	scanf("%d\n",&a);
+
+	printf("enter the b value:\n");
+	scanf("%d\n",&b);
 
 	int c = a+b;
 
